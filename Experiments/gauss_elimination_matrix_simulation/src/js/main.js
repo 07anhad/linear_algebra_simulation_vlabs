@@ -159,5 +159,5 @@ let count=0;
               else
                 document.getElementById(said).setAttribute("style","color:lightgreen");
 
-document.getElementById("preresult").innerHTML="You got " + (2-count).toFixed(0) + " answers correct out of 2";
+document.getElementById("preresult").innerHTML="You got " + (1-count).toFixed(0) + " answers correct out of 1";
 }
